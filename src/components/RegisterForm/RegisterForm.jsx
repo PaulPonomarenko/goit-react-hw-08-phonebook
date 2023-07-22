@@ -22,11 +22,11 @@ export const RegisterForm = () => {
     <form onSubmit={handleSubmit} autoComplete="off">
       <label>
         Username
-        <input type="text" name="name" placeholder="Username" />
+        <input type="text" name="name" placeholder="Username" required />
       </label>
       <label>
         Email
-        <input type="email" name="email" placeholder="Email" />
+        <input type="email" name="email" placeholder="Email" required />
       </label>
       <label>
         Password
