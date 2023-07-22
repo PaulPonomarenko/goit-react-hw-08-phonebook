@@ -1,7 +1,7 @@
 import React from 'react';
 import css from './FormData.module.css';
 import { useDispatch } from 'react-redux';
-import { addContact } from 'redux/operations';
+import { addContact } from 'redux/contacts/operations';
 
 export function FormData() {
   const dispatch = useDispatch();
