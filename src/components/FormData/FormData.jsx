@@ -7,11 +7,11 @@ import { useState } from 'react';
 export function FormData() {
   const dispatch = useDispatch();
   const [name, setName] = useState('');
-  const [phone, setPhone] = useState('');
+  const [number, setPhone] = useState('');
 
   const handleSubmit = event => {
     event.preventDefault();
-    dispatch(addContact({ name, phone }));
+    dispatch(addContact({ name, number }));
     setName('');
     setPhone('');
     event.target.reset();
@@ -23,7 +23,7 @@ export function FormData() {
       case 'name':
         setName(value);
         break;
-      case 'phone':
+      case 'number':
         setPhone(value);
         break;
       default:
@@ -54,11 +54,11 @@ export function FormData() {
               className={css.input__change}
               onChange={handleChange}
               type="tel"
-              name="phone"
+              name="number"
               title="Phone number must be digits and can contain spaces, dashes, parentheses and can start with +"
               required
               placeholder="Number"
-              defaultValue={phone}
+              defaultValue={number}
             />
           </div>
           <div className={css.form__button}>
