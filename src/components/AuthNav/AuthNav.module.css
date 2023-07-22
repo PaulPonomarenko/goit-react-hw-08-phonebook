@@ -1,0 +1,15 @@
+.nav_link {
+  text-decoration: none;
+  margin-right: 15px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.47;
+  letter-spacing: 0.06em;
+  font-family: cursive;
+  color: rgb(18, 136, 7);
+}
+.nav_link:hover,
+.nav_link:focus {
+  color: rgb(29, 181, 18);
+}

@@ -44,7 +44,6 @@ export function FormData() {
               type="text"
               name="name"
               required
-              placeholder="Name"
               defaultValue={name}
             />
           </div>
@@ -57,7 +56,6 @@ export function FormData() {
               name="number"
               title="Phone number must be digits and can contain spaces, dashes, parentheses and can start with +"
               required
-              placeholder="Number"
               defaultValue={number}
             />
           </div>

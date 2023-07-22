@@ -1,0 +1,36 @@
+.form {
+  width: 320px;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid seagreen;
+  border-radius: 5px;
+  background-color: rgb(122, 238, 122);
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+.login {
+  text-align: center;
+}
+
+.input {
+  height: 30px;
+  border-radius: 10px;
+  width: 300px;
+}
+
+.button__login {
+  width: 100px;
+  height: 30px;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
