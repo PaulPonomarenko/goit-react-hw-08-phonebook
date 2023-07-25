@@ -1,7 +1,13 @@
-.header {
-  display: flex;
+.header__container {
+  max-width: 1400px;
   height: 80px;
+  margin: 0 auto;
+  padding: 0 15px;
+  display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: rgba(172, 245, 195, 0.97);
+}
+header {
+  background-color: rgba(22, 159, 65, 0.97);
+  border: 1px solid rgb(64, 255, 47);
 }

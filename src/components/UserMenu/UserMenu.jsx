@@ -14,7 +14,7 @@ const UserMenu = () => {
         type="button"
         onClick={() => dispatch(logOut())}
       >
-        LogOut
+        Вихід
       </button>
     </div>
   );
