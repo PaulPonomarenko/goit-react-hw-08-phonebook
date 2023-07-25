@@ -1,1 +1,0 @@
-{"version":3,"file":"static/css/581.517c9c1e.chunk.css","mappings":"AAAA,qBAEE,eAAgB,CADhB,iBAEF,CACA,oBACE,iBACF","sources":["pages/page.module.css"],"sourcesContent":[".welcome {\n  text-align: center;\n  margin-top: 50px;\n}\n.wizard {\n  text-align: center;\n}\n"],"names":[],"sourceRoot":""}
